@@ -1,5 +1,4 @@
 import streamlit as st
-from pickle import load
 import joblib
 
 model = joblib.load("mejor_modelo_tree.pkl")
